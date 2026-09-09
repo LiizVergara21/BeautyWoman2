@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Crear cuenta | Luna Beauty</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        Luna Beauty 💄
+    </div>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Maquillaje</a>
+        <a href="login.html">Iniciar sesión</a>
+    </nav>
+
+</header>
+
+<section class="registro">
+
+    <h1>Crear una cuenta</h1>
+
+    <p>Regístrate para disfrutar de Luna Beauty.</p>
+
+    <form action="../backend/registrar.php" method="POST">
+
+        <label>Nombre</label>
+
+        <input 
+            type="text"
+            name="nombre"
+            placeholder="Escribe tu nombre"
+            required
+        >
+
+        <label>Correo electrónico</label>
+
+        <input 
+            type="email"
+            name="correo"
+            placeholder="ejemplo@gmail.com"
+            required
+        >
+
+        <label>Contraseña</label>
+
+        <input 
+            type="password"
+            name="password"
+            placeholder="Crea una contraseña"
+            required
+        >
+
+        <button type="submit">
+            Crear cuenta
+        </button>
+
+    </form>
+
+</section>
+
+</body>
+</html>
