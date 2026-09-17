@@ -1,0 +1,1 @@
+**Beautiful Woman** es una aplicación web enfocada en el sector de la belleza y el cuidado personal. Su objetivo principal es facilitar la gestión y presentación de servicios, productos y citas para clientes, ofreciendo una experiencia digital intuitiva, moderna y accesible para organizar las operaciones del negocio y mejorar la interacción con los usuarios.
